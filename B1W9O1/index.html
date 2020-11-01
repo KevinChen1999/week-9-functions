@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>HoReCa App (B1W9O1)</title>
 	<link rel="stylesheet" type="text/css" href="assest/style.css">
 </head>
 <body>
 	
 	<img src="assest/img/logo.png">
+	<div class = "text"><H1>Welkom in de Dining Hall van Garreg Mach Monastery</H1><P>U kunt de besteling nemen op de knop "Bestellen".</P></div>
 	<div class ="container">
-		<button class ="button drank" onclick="orderdrink();">Drank</button>
-		<button class ="button snack" onclick="ordersnacks();">Snacks</button>
-		<button class ="button recipt" onclick="recipt();">Rekening</button>
+		<button id ="Order" onclick="takeorder();">Bestellen</button>
+		<div class = "text"><h2>heeft u genoten van onze service? <br>drup op de knop "rekening" en zie u de totale gebruik en prijzen.</h2></div>
+		<button id ="receipt" onclick="OrderTotal();">Rekening</button>
 	</div>
 	<script src="assest/script.js"></script>
 </body>
